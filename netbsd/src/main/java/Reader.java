@@ -42,8 +42,6 @@ public class Reader extends Thread{
         }
         catch (IOException ignored) {
         }
-
-        System.out.println("Deletion successful.");
     }
     public void run() {
         try {
